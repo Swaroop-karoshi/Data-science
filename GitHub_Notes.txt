@@ -19,3 +19,30 @@ Git and Github
 > git add .                # Add all Work Done to staging area
 
 > git commit -m "message"  # Create new commit
+
+> git push origin main     # This will push the File to main branch in Github and if we add -u in front of origin It sets as default
+
+#  Commands to add local files to Github
+> git init                 # Used to create a new Github Repo
+
+> git remote add origin <link>  # Sets the origin for git Repo
+
+> git remote -v            # Checks that what the Origin is sets
+
+> git branch               # To chech the branch
+
+> git branch -M main       # To rename branch as main
+
+> git push origin main
+
+> git checkout <-Branch name->  # Navigate through branches
+
+> git checkout -b <-new branch name->   # Add new branch
+
+> git branch -d <-Branch name->    # Delete the branch
+
+# Commands of Merging
+
+> git diff <-Branch name->    # To compare commits, branches, files and More
+
+> git merge <-Branch name->   # To merge to Branch
