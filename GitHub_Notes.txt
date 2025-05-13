@@ -1,0 +1,21 @@
+Git and Github
+
+# Code 
+> git --version            # Checks the version of the git
+
+> git init                 # Create any empty Git Repo 
+
+> git status               # Check working directory & staging area status
+
+> git log                  # Display all commits of current branch
+
+> git ls-files             # List tracked files
+
+# Basic Commands Summary: Commit Creation & Access
+
+# Code
+> git add <filename>       # Add single file to staging area
+
+> git add .                # Add all Work Done to staging area
+
+> git commit -m "message"  # Create new commit
