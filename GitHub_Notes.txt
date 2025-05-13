@@ -46,3 +46,17 @@ Git and Github
 > git diff <-Branch name->    # To compare commits, branches, files and More
 
 > git merge <-Branch name->   # To merge to Branch
+
+# Undo Changes 
+> git reset <-file name->     # Staged change
+> git reset                   # Staged change
+
+> git reset HEAD~1            # Reset the previous commit 
+
+> git reset <-commit hash->   # Reset till the hash of that wanted Commit
+
+> git reset --hard <-commit hash->   # Make changes in IDE also
+
+# Fork Notes 
+
+Basically the rough copy of different repo or for open-source contribution
