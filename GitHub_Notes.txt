@@ -59,4 +59,4 @@ Git and Github
 
 # Fork Notes 
 
-Basically the rough copy of different repo or for open-source contribution
+Basically the rough copy of different repo or for open-source contribution.
