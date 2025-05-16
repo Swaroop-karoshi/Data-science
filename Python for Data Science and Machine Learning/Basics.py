@@ -1,6 +1,7 @@
 # x() is the function, weather input or output function,
 # Python is the case-sensitive language
 from cgi import print_environ_usage
+from xml.dom.minidom import ProcessingInstruction
 
 print("Hello world")
 
@@ -158,4 +159,52 @@ snum = input("Enter Second number: ")
 # add two variables
 result = int(fnum) + int(snum)
 print(result)
+print(type(fnum))
 
+# Literals
+a = 0b1010      # Binary Literal
+b = 100         # Decimal Literal
+c = 0o310       # Octal Literal
+d = 0x12c       # Hexadecimal Literal
+
+print(a,b,c,d)
+# Float literal
+float_1 = 10.5
+float_2 = 1.5e2
+float_3 = 1.5e-2
+
+print(float_1, float_2, float_3)
+
+# Complex Literal
+x = 3.15j
+print(x)
+print(x.real)
+print(x.imag)
+
+string = 'This is Python'
+string_12 = "This is Python"
+char = "c"
+multiline_str = """This is the multiline string with more than
+one line of code"""
+unicode = u"\U0001f600\U0001f606\U0001f923"
+raw_str = r"raw \n string"
+not_raw_str = "raw \n string"
+
+print(string)
+print(string_12)
+print(char)
+print(multiline_str)
+print(unicode)
+print(raw_str)
+print(not_raw_str)
+
+# Special feature of boolean in mathematics
+
+a = True + 4        # True = 1
+b = False +10       # false = 0
+
+print("a: ", a)
+print("b: ", b)
+
+a = None
+print(a)        # print as None
