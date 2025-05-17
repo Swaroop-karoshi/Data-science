@@ -208,3 +208,95 @@ print("b: ", b)
 
 a = None
 print(a)        # print as None
+
+# Operators
+
+# Arithmatic Operator
+
+print(5+6)
+print(5-11)
+print(5*7)
+print(5/2)
+print(5//2)
+print(5**2)
+print(5%2)
+
+# Relational Operators
+
+print(4>5)
+print(4<5)
+print(4<=4)
+print(4>=4)
+print(4==5)
+print(4!=4)
+
+# Logical Operators
+
+print(1 and 0)
+print(1 or 0)
+print(not 1)        # output will be False
+
+# Bitwise Operators
+
+print(2&3)    # This coverts 2 and 3 into binary number and apply and operator in it
+print(2|3)
+# We know that 2 = 010, and 3 = 011 if we use & operator we get 010 which is 2
+# if we use or operator in same we got 011 which is 3
+
+# bitwise xor
+print(2 ^ 3)    # In xor operator if both are same then it returns as 0 and if both are different then it returns 1
+
+# in above example 010 and 011 the answer of xor in binary will be 001 which gives 1 as output
+
+# not
+
+print(~6)       # 6 = 110 and NOT 6 = 001 and 1st compliment = 110 and 2nd compliment = 110 + 1 = 111 which is equal to 7 and Not of positive value will be negative so answer will be -7
+
+print(~7)
+
+# Let's solve this
+# 7 = 111
+# NOT 7 = 000
+# 1st compliment = 111
+# 2nd compliment = 111 + 1 = 1000
+# which is equal to 8 and since in question number is positive then answer should be negative
+# Answer is Negative of 8 which is -8
+
+print(4 >> 2)       # Bitwise left operators
+
+print(5<<2)         # Bitwise Right operators
+
+# Assignment Operators
+
+a = 2
+
+a += 2      # a = a + 2
+
+print(a)    # here output will be 4
+
+# you can use -, *, /, %, //, ** also instead of +
+
+# Membership Operator
+# in / not in
+
+print('D' in 'Delhi')           # Output is true
+
+print('D' not in 'Delhi')       # Output is False
+
+print(1 in [2,3,4,5,6])         # Output is False
+
+# PROGRAM - Find the sum of a 3 digit entered by the user
+
+number = int(input("Enter the Three digit number: "))
+
+a = number % 10
+
+number = number // 10
+
+b = number % 10
+
+number = number // 10
+
+c = number % 10
+
+print("The sum of 3 digits is: ", a+b+c)
