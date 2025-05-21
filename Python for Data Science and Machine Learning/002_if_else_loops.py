@@ -31,4 +31,15 @@ else:
 fnum = int(input("Enter the First Number"))
 snum = int(input("Enter the Second Number"))
 
-op = int("Enter the operation")
+op = input("Enter the operation")
+
+if op == '+':
+    print(fnum + snum)
+elif op == '-':
+    print(fnum - snum)
+elif op == '*':
+    print(fnum * snum)
+elif op == '/':
+    print(fnum / snum)
+else:
+    print("Operation is not defined")
