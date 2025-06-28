@@ -124,3 +124,26 @@ for i in range(1, 11, 4):   # here 4 specifies intervals
 for i in range(10, 0, -1):  
     print(i)                # here output will be 10 to 1
 
+for i in "Delhi":           # Here output will be D (new line) e so on.
+    print(i)
+
+# Program - The current population od the town is 10000. The population of the town is increasing at hte rate of 10% per year. You have to write a program to find out the population at the end of each of the last 10 years.
+
+curr_pop = 10000
+
+for i in range(10, 1, -1):
+    print(i,curr_pop)
+    curr_pop = curr_pop - 0.1*curr_pop
+
+# here the output of above will be
+# 10 10000
+# 9 9000.0
+# 8 8100.0
+# 7 7290.0
+# 6 6561.0
+# 5 5904.9
+# 4 5314.41
+# 3 4782.969
+# 2 4304.6721
+# 1 3874.20489
+
