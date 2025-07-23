@@ -1,6 +1,5 @@
 # x() is the function, weather input or output function,
 # Python is the case-sensitive language
-from cgi import print_environ_usage
 from xml.dom.minidom import ProcessingInstruction
 
 print("Hello world")
@@ -120,8 +119,8 @@ print(_)
 # Static v/s Dynamic Software
 # Static doesn't interact
 
-input('Enter your name:')
-input('Enter email:')
+input('Enter your name: ')
+input('Enter email: ')
 
 # take input from user and store them in a variable
 fnum = input('Enter the first number ')
