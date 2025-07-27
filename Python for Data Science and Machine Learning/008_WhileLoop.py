@@ -21,3 +21,11 @@ while not food=="q":
     food=input("Enter your another favourite food (q to quit): ")
 print("Quit successful")
 
+num = int(input("Enter a number between 1 and 10: "))
+
+while num<1 or num>10:
+    print("Enter a number not between 1 and 10")
+    num = int(input("Enter a number between 1 and 10: "))
+
+print(f"Your number is {num}")
+
