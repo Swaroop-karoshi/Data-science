@@ -36,4 +36,4 @@ for question in questions:
 print("--------------------------------------------")
 print("                  RESULTS                   ")
 print("--------------------------------------------")
-print("Your score is: ", score)
+print(f"Your score is {score} / {len(questions)}")
